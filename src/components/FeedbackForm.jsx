@@ -11,7 +11,7 @@ const FeedbackForm = ({ heroes }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/feedback', {
+      const response = await axios.post('http://localhost:5030/api/feedback', {
         heroReference,
         suggestion,
       });
@@ -29,7 +29,6 @@ const FeedbackForm = ({ heroes }) => {
 
   return (
     <div>
-      {/* Styled Submit Feedback button */}
       <button
         onClick={() => setShowModal(true)}
         className="fixed top-4 right-4 px-4 py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-700 transition duration-300 ease-in-out"
@@ -40,7 +39,6 @@ const FeedbackForm = ({ heroes }) => {
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md relative">
-            {/* Close button */}
             <button
               onClick={() => setShowModal(false)}
               className="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-2xl"

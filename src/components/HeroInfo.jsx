@@ -20,7 +20,7 @@ const HeroInfo = ({ hero, onHeroClick }) => {
               key={index}
               src={counterHero.src}
               alt={counterHero.alt}
-              className="h-12 w-12 rounded-md cursor-pointer"
+              className="h-24 w-24 rounded-md cursor-pointer"
               onClick={() => onHeroClick(counterHero)}
             />
           ))}
@@ -35,7 +35,7 @@ const HeroInfo = ({ hero, onHeroClick }) => {
               key={index}
               src={counteredByHero.src}
               alt={counteredByHero.alt}
-              className="h-12 w-12 rounded-md cursor-pointer"
+              className="h-24 w-24 rounded-md cursor-pointer"
               onClick={() => onHeroClick(counteredByHero)}
             />
           ))}

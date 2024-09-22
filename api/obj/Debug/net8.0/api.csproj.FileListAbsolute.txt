@@ -139,3 +139,5 @@ C:\Users\yugra\CounterWatch\api\obj\Debug\net8.0\refint\api.dll
 C:\Users\yugra\CounterWatch\api\obj\Debug\net8.0\api.pdb
 C:\Users\yugra\CounterWatch\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\yugra\CounterWatch\api\obj\Debug\net8.0\ref\api.dll
+C:\Users\yugra\CounterWatch\api\bin\Debug\net8.0\DotNetEnv.dll
+C:\Users\yugra\CounterWatch\api\bin\Debug\net8.0\Sprache.dll
